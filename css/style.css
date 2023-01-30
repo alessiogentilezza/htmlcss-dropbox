@@ -18,13 +18,13 @@ html {
 }
 
 .column-small {
-    width: 300px;
+    width: 40%;
     height: 400px;
     background-color: violet;
 }
 
 .column-big {
-    width: 500px;
+    width: 60%;
     height: 400px;
     background-color: green;
 }
@@ -34,8 +34,19 @@ html {
     background-color: brown;
 }
 
+/* .column-side {
+    width: 400px;
+    height: 400px;
+    background-color: violet;
+}
 
+.column-center {
+    width: 600px;
+    height: 400px;
+    background-color: green;
+}
 
+ */
 
 
 
@@ -64,13 +75,13 @@ header {
 
 main {
     margin-top: 100px;
-    height: 100vh;
-    overflow-y: scroll;
+    /* height: 100vh; */
+    /* overflow-y: scroll; */
 }
 
 footer {
-    /* background-color: black;
-    height: 600px; */
+    background-color: black;
+    height: 600px;
 }
 
 .menu-column {
@@ -113,21 +124,21 @@ footer {
 }
 
 .business-plan {
-    height: 1000px;
+    /* height: 1000px; */
     width: 70%;
     margin: 0 auto;
 }
 
 .columns {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .section-column {
     width: calc(100% / 4);
     margin: 20px;
-    }
+}
 
 .enetrprice {
     height: 200px;
@@ -137,7 +148,19 @@ footer {
 }
 
 .loghi {
-    height: 500px;
+    /* height: 500px; */
     width: 100%;
-    background-color: chocolate;
+    /* background-color: chocolate; */
+    display: flex;
+}
+
+.column-small .img1 {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    float: left;
+}
+
+img {
+    width: 100%;
 }
