@@ -164,3 +164,16 @@ footer {
 img {
     width: 100%;
 }
+
+
+.free-trial {
+    height: 250px;
+    padding: 20px;
+    background-color: #B4D0E7;
+}
+
+.faq {
+    height: 500px;
+    padding: 20px;
+    background-color: #c2f3c0;
+}
