@@ -148,23 +148,32 @@ footer {
 }
 
 .loghi {
-    /* height: 500px; */
     width: 100%;
-    /* background-color: chocolate; */
     display: flex;
 }
 
-.column-small .img1 {
-    width: 200px;
-    height: 200px;
+.column-side {
+    width: calc(100% / 3);
+    background-color: cadetblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.column-center {
+    width: calc(100% / 3);
+}
+
+
+.column-side .img {
+    width: 50%;
+    padding-top: 50%;
+    height: 0;
+    overflow: hidden;
+    background-color: #57BCB7;
+    position: relative;
     border: 1px solid red;
-    float: left;
-}
 
-img {
-    width: 100%;
 }
-
 
 .free-trial {
     height: 250px;
