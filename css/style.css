@@ -34,22 +34,6 @@ html {
     background-color: brown;
 }
 
-/* .column-side {
-    width: 400px;
-    height: 400px;
-    background-color: violet;
-}
-
-.column-center {
-    width: 600px;
-    height: 400px;
-    background-color: green;
-}
-
- */
-
-
-
 
 
 
@@ -83,6 +67,22 @@ footer {
     background-color: black;
     height: 600px;
 }
+
+.footer-container {
+    width: 1170px;
+    display: flex;
+    /* margin: auto; */
+}
+
+
+.column {
+    width: calc(100% / 5);
+    color: white;
+    background-color: #57BCB7;
+}
+
+
+
 
 .menu-column {
     /* width: 40%; */
