@@ -65,7 +65,7 @@ header {
 main {
     margin-top: 100px;
     height: 100vh;
-    verflow-y: scroll;
+    overflow-y: scroll;
 }
 
 footer {
