@@ -65,7 +65,7 @@ header {
 main {
     margin-top: 100px;
     height: 100vh;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
 }
 
 footer {
@@ -121,6 +121,7 @@ footer {
 .columns {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .section-column {
