@@ -108,6 +108,10 @@ main {
     max-width: 1170px;
     margin: auto;
 }
+.container-small {
+    max-width: 1000px;
+    margin: auto;
+}
 
 .jumbo {
     background-color: #B4D0E7;
@@ -121,14 +125,13 @@ main {
     /* margin: auto; */
     /* text-align: left; */
     display: flex;
-    justify-content: center;
     /* line-height: 32px; */
 
 }
 .jumbo h1 {
     padding-top: 40px;
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
 }
 
 .jumbo button {
@@ -144,7 +147,7 @@ padding: 10px 0;
 
 .column-big img {
     position: relative;
-    display: flex;
+    /* display: flex; */
     height: 100%;
     top: 40px;
 }
@@ -152,8 +155,6 @@ padding: 10px 0;
 .top-40 {
     padding-top: 40px;
 }
-s
-
 
 
 
@@ -191,8 +192,8 @@ button {
 
 
 .business-plan {
-    width: 70%;
-    margin: 0 auto;
+    /* width: 70%; */
+    /* margin: 0 auto; */
 }
 
 .columns {
@@ -317,7 +318,7 @@ footer {
 }
 
 .check {
-    margin: 20px 0px;
+    padding-top: 50px;
 }
 
 .check span {
