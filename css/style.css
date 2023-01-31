@@ -279,28 +279,48 @@ hr {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .enetrprice {
-    height: 200px;
-    background-color: yellow;
-    margin-bottom: 20px;
+    border: solid 1px gray;
+    /* height: 200px;
+    background-color: yellow; */
+    /* margin-bottom: 20px; */
 
 }
+
+.enetrprice .top {
+    border-bottom: solid 1px gray;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.enetrprice .bottom {
+    padding: 20px;
+}
+
+.enetrprice .bottom h3 {
+    padding-bottom: 20px;
+}
+
+.enetrprice .bottom h4 {
+    padding-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .loghi {
     /* width: 100%; */
