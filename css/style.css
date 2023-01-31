@@ -187,11 +187,32 @@ button {
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 30px 0;
-}   
+}
 
-/* .section-column {
-    width: calc(100% / 3);
-} */
+
+.icon {
+    border: solid 1px gray;
+    text-align: center;
+    font-size: 20px;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .enetrprice {
     height: 200px;
@@ -313,3 +334,14 @@ footer {
     line-height: 20px;
     vertical-align: middle;
 }
+
+.text * {
+    padding: 10px;
+}
+
+.list li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
