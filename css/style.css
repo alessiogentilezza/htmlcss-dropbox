@@ -37,21 +37,24 @@ html {
 
 .column-small {
     /* width: 40%; */
-    height: 400px;
+    min-height: 300px;
     /* background-color: violet; */
 }
 
 .column-big {
     position: relative;
-    height: 400px;
+    min-height: 300px;
     /* background-color: green; */
 }
 
 .columns .section-column {
-    height: 300px;
+    min-height: 300px;
     background-color: brown;
 }
 
+.border {
+    border: 1px solid red;
+}
 
 
 
@@ -139,9 +142,9 @@ padding: 10px 0;
 
 .column-big img {
     position: absolute;
-    top: 0%;
+    top: -19%;
     left: 0%;
-    height: 100%;
+    height: 125%;
 }
 
 
