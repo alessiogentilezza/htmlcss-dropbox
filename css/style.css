@@ -37,18 +37,18 @@ html {
 
 .column-small {
     /* width: 40%; */
-    min-height: 300px;
+    height: 300px;
     /* background-color: violet; */
 }
 
 .column-big {
     position: relative;
-    min-height: 300px;
+    height: 300px;
     /* background-color: green; */
 }
 
 .columns .section-column {
-    min-height: 300px;
+    height: 300px;
     background-color: brown;
 }
 
@@ -76,13 +76,13 @@ header {
     justify-content: space-between;
 
 }
-/* .d-flex {
+.d-flex {
     display: flex;
 }
 .space-between {
     justify-content: space-between;
 }
- */
+
 
 
 .menu-column ul {
@@ -122,11 +122,11 @@ main {
     /* text-align: left; */
     display: flex;
     justify-content: center;
-    line-height: 32px;
+    /* line-height: 32px; */
 
 }
 .jumbo h1 {
-    padding: 50px 0;
+    padding-top: 40px;
     text-align: center;
     font-size: 40px;
 }
@@ -140,16 +140,19 @@ font-size: 30px;
 padding: 10px 0;
 }
 
+
+
 .column-big img {
-    position: absolute;
-    top: -19%;
-    left: 0%;
-    height: 125%;
+    position: relative;
+    display: flex;
+    height: 100%;
+    top: 40px;
 }
 
-
-
-
+.top-40 {
+    padding-top: 40px;
+}
+s
 
 
 
@@ -165,6 +168,24 @@ button {
     padding: 10px;
     font-size: 16px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
