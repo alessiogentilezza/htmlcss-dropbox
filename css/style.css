@@ -42,9 +42,9 @@ html {
 }
 
 .column-big {
-    /* width: 60%; */
+    position: relative;
     height: 400px;
-    background-color: green;
+    /* background-color: green; */
 }
 
 .columns .section-column {
@@ -137,7 +137,12 @@ font-size: 30px;
 padding: 10px 0;
 }
 
-
+.column-big img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+}
 
 
 
