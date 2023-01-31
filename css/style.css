@@ -10,10 +10,14 @@ html {
 
 /* REGOLE DI DEBUG */
 
+/* nav {
+    height: 100%;
+} */
+
 .menu-column {
-    height: 40px;
-    width: 500px;
-    background-color: red;
+    /* display: flex; */
+    /* background-color: red; */
+    padding: 0 20px;
 
 }
 
@@ -37,15 +41,14 @@ html {
 
 
 
-
 /* REGOLE CSS */
 body {
     position: relative;
 }
 
 header {
-    background-color: #FF6900;
-    height: 100px;
+    /* background-color: #FF6900; */
+    height: 70px;
     width: 100%;
     position: fixed;
     top: 0;
@@ -56,23 +59,39 @@ header {
     justify-content: space-between;
 
 }
-
-main {
-    margin-top: 100px;
-    /* height: 100vh; */
-    /* overflow-y: scroll; */
+/* .d-flex {
+    display: flex;
 }
-
-.menu-column {
-    /* width: 40%; */
-
+.space-between {
+    justify-content: space-between;
 }
+ */
+
 
 .menu-column ul {
     display: flex;
+    align-items: center;
     list-style-type: none;
-    justify-content: space-between;
 }
+.menu-column ul li {
+    padding: 0 30px;
+}
+
+.menu-column ul img {
+    height: 30px;
+}
+
+
+
+
+main {
+    padding-top: 70px;
+}
+
+
+
+
+
 
 .container {
     max-width: 1170px;
@@ -86,11 +105,13 @@ main {
 }
 
 .content {
-    max-width: 1170px;
-    margin: auto;
-    text-align: center;
+    position: relative;
+    /* max-width: 1170px; */
+    /* margin: auto; */
+    text-align: left;
     display: flex;
     justify-content: center;
+    line-height: 32px;
 
 }
 
@@ -102,8 +123,21 @@ main {
     /* width: 60%; */
 }
 
+button {
+    /* position:absolute;
+    top: calc(100% - 200px);
+    left: 0%; */
+    background-color: #0061FF;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
 .business-plan {
-    /* height: 1000px; */
     width: 70%;
     margin: 0 auto;
 }
@@ -127,7 +161,7 @@ main {
 }
 
 .loghi {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
 }
 
@@ -197,4 +231,43 @@ footer {
     height: 30px;
     /* margin-top: 100px; */
     background-color: lightsalmon;
+}
+
+
+/* .ring {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+} */
+
+.circle-blue {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #0061FF;
+    margin: 0px 20px;
+    /* position: absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-50%, -50%); */
+}
+
+.circle-gray {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #D0D0D3;
+    margin: 0px 20px;
+}
+
+.check {
+    margin: 20px 0px;
+}
+
+.check span {
+    line-height: 20px;
+    vertical-align: middle;
 }
