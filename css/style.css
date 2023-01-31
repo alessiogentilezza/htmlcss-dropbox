@@ -178,6 +178,30 @@ button {
     font-size: 16px;
 }
 
+.check span {
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.circle-blue {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 5px solid #0061FF;
+    margin: 0 10px;
+}
+
+.circle-gray {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #D0D0D3;
+    margin: 0 10px;
+}
+
+
 .columns {
     display: flex;
     justify-content: space-around;
@@ -190,23 +214,71 @@ button {
     border-bottom: solid 1px gray;
     text-align: center;
     font-size: 20px;
-    padding: 5px;
-}
-
-.list button {
-    margin: 30px 0;
-
+    padding-bottom: 10px;
 }
 
 
-.section-column.w-30.border{
+.section-column.w-30.border {
     border: solid 1px gray;
+    padding: 10px 0;
 
 }
 
 .center {
     justify-content: center;
 }
+
+.business-plan h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+
+.text * {
+    padding: 10px;
+}
+
+.top-list li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+.top-list button {
+    margin: 30px 0;
+
+}
+
+.top-list span {
+    padding: 10px;
+
+}
+
+hr {
+    padding: 30px 0;
+}
+
+.bottom-list li {
+    list-style-type: none;
+    padding: 10px;
+
+}
+
+#line {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.bottom-list i {
+    color: #0061FF;
+
+}
+
+.bottom-list h4 {
+    padding: 10px;
+}
+
+
 
 
 
@@ -310,45 +382,3 @@ footer {
     width: 50px;
     height: 50px;
 } */
-
-.circle-blue {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 5px solid #0061FF;
-    margin: 0 10px;
-    /* position: absolute;
-    top: 100%;
-    left: 100%;
-    transform: translate(-50%, -50%); */
-}
-
-.circle-gray {
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: 2px solid #D0D0D3;
-    margin: 0 10px;
-}
-
-.business-plan h2 {
-    padding-top: 50px;
-    padding-bottom: 30px;
-}
-
-
-.check span {
-    line-height: 20px;
-    vertical-align: middle;
-}
-
-.text * {
-    padding: 10px;
-}
-
-.list li {
-    list-style-type: none;
-}
-
