@@ -86,6 +86,9 @@ header {
 .d-flex {
     display: flex;
 }
+.wrap{
+    flex-wrap: wrap;
+}
 
 .space-between {
     justify-content: space-between;
@@ -231,6 +234,10 @@ button {
 #sub-title-2 {
     padding-top: 100px;
 }
+#sub-title-3 {
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
 
 
 .text * {
@@ -290,6 +297,7 @@ hr {
     border-bottom: solid 1px gray;
     padding: 10px 0;
     text-align: center;
+    font: size 20px;
 }
 
 .enetrprice .bottom {
@@ -355,33 +363,41 @@ hr {
 
 
 
-.loghi {
-    /* width: 100%; */
-    display: flex;
+.customer {
+    width: 100%;
 }
 
-.column-side {
+.square {
     width: calc(100% / 3);
+    height: calc(100vw / 3);
     background-color: cadetblue;
-    display: flex;
-    flex-wrap: wrap;
 }
 
-.column-center {
+.square center {
     width: calc(100% / 3);
+    overflow:auto;
+
 }
 
 
-.column-side .img {
+.square .small {
     width: 50%;
-    padding-top: 50%;
-    height: 0;
-    overflow: hidden;
+    height: 50%;
     background-color: #57BCB7;
-    position: relative;
     border: 1px solid red;
 
 }
+
+
+
+
+
+
+
+
+
+
+
 
 .free-trial {
     height: 250px;
