@@ -328,7 +328,7 @@ button {
     align-items: center;
 }
 
-#customer img {
+.small img {
     width: 50%;
     filter: invert(100%);
 }
@@ -337,17 +337,42 @@ button {
     background-color: #A2D39B;
     border: solid 10px #D1E9CD;
 }
+
 .square2-color {
     background-color: #61082B;
 }
+
 .square3-color {
     background-color: #0093CE;
 }
+
 .square4-color {
     background-color: #FF1C1C;
 }
 
+.square5-color {
+    background-color: #D5001F;
+}
 
+.square6-color {
+    background-color: #B4D0E7;
+}
+
+.square7-color {
+    background-color: #0D2481;
+}
+
+.square8-color {
+    background-color: #FFD830;
+}
+
+.square.central img {
+    width: 50%;
+}
+
+.square.central {
+    padding: 100px;
+}
 
 
 
