@@ -14,29 +14,57 @@
 
 <body>
     <header>
-        <nav class="menu-column">
-            <ul>
-                <img src="img/logo-small.png" alt="logo DropBox">
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-            </ul>
-        </nav>
-        <nav class="menu-column">
-            <ul>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <li>Lorem</li>
-                <button>Accedi</button>
-            </ul>
+        <nav class="d-flex space-between">
+            <div class="menu-column">
+                <ul class="d-flex">
+                    <li><a href="#">
+                            <img src="img/logo-small.png" alt="logo DropBox">
+                        </a>
+                    </li>
+                    <li class="border-hover"><a href="#">
+                            Lorem
+                        </a>
+                    </li>
+                    <li class="border-hover"><a href="#">
+                        Lorem
+                        </a>
+                    </li>
+                    <li class="border-hover"><a href="#">
+                        Lorem
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="menu-column">
+                <ul class="d-flex">
+                    <li class="border-hover"><a href="#">
+                        Lorem
+                        </a>
+                    </li>
+                    <li class="border-hover"><a href="#">
+                        Lorem
+                        </a>
+                    </li>
+                    <li class="border-hover"><a href="#">
+                        Lorem
+                        </a>
+                    </li>
+                    <li><a href="#">
+                            <button>Inizia</button>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
         </nav>
     </header>
     <main>
         <section class="jumbo">
-            <div class="container">
+            <div class="container fuori-bordo">
                 <h1>Tutto cio che ti serve per il lavoro in un unico posto</h1>
-                <div class="content">
-                    <div class="column-small w-40 top-40">
+                <div class="content d-flex">
+                    <div class="column-small w-40 top-30">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa ad sunt est, quisquam dolores
                             quod odit sit maxime quae officia laudantium. Consequuntur, autem repudiandae accusantium
                             maiores quisquam vero saepe ratione.</p>
@@ -44,7 +72,7 @@
                         <span>Annulla in qualsiasi momento</span><br>
                         <span><a href="#"><i class="fa-solid fa-arrow-down"></i></a></span>
                     </div>
-                    <div class="column-big w-60 fuori-bordo">
+                    <div class="column-big w-60 top-30">
                         <img src="img/jumbo.png" alt="">
                     </div>
                 </div>
@@ -52,7 +80,7 @@
         </section>
         <div class="container-small">
             <section class="business-plan">
-                <h2 id="sub-title-1">Trova il piano business che fa per te</h2>
+                <h2 class="top-50 bottom-30">Trova il piano business che fa per te</h2>
                 <div class="check">
                     <span class="circle-blue"></span><span>Fatturazione Mensile</span>
                     <span class="circle-gray"></span><span>Fatturazione Annuale</span>
@@ -60,7 +88,7 @@
                 <div class="columns">
                     <div class="section-column w-30 border">
                         <div class="icon">
-                            <i class="fa-solid fa-user"></i>&nbsp Singolo
+                            <i class="fa-solid fa-user"></i>&nbspSingolo
                         </div>
                         <div class="text">
                             <h3>Professional</h3>
@@ -69,27 +97,27 @@
                         </div>
                         <div class="top-list">
                             <ul>
-                                <li><i class="fa-solid fa-user"></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
-                                <li><i class="fa-solid fa-share-nodes"></i></i>&nbsp Funzioni di produttività</li>
+                                <li><i class="fa-solid fa-user"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-folder"></i>&nbsp5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-share-nodes"></i>&nbspFunzioni di produttività</li>
                             </ul>
                             <div class="d-flex center">
                                 <button>Prova Gratis per trena giorni</button><br>
                             </div>
-                            <span>Oppure<a href="#">&nbsp Acquista ora</a></span><br>
+                            <span>Oppure<a href="#">&nbspAcquista ora</a></span><br>
                         </div>
-                        <span id=line style="color: gray;">&nbsp _______</span>
+                        <span class="line" style="color: gray;">&nbsp_______</span>
                         <div class="bottom-list">
                             <h4>Punti Salienti del piano</h4>
                             <ul>
-                                <li><i class="fa-solid fa-check"></i></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-check"></i></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp5 TB di sapzio di archiviazione</li>
                             </ul>
                         </div>
                     </div>
                     <div class="section-column w-30 border">
                         <div class="icon">
-                            <i class="fa-solid fa-users"></i>&nbsp Team
+                            <i class="fa-solid fa-users"></i>&nbspTeam
                         </div>
                         <div class="text">
                             <h3>Professional</h3>
@@ -98,27 +126,27 @@
                         </div>
                         <div class="top-list">
                             <ul>
-                                <li><i class="fa-solid fa-user"></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
-                                <li><i class="fa-solid fa-share-nodes"></i></i>&nbsp Funzioni di produttività</li>
+                                <li><i class="fa-solid fa-user"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-folder"></i>&nbsp5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-share-nodes"></i>&nbspFunzioni di produttività</li>
                             </ul>
                             <div class="d-flex center">
                                 <button>Prova Gratis per trena giorni</button><br>
                             </div>
-                            <span>Oppure<a href="#">&nbsp Aquista ora</a></span><br>
+                            <span>Oppure<a href="#">&nbspAquista ora</a></span><br>
                         </div>
-                        <span id=line style="color: gray;">&nbsp _______</span>
+                        <span class="line" style="color: gray;">&nbsp_______</span>
                         <div class="bottom-list">
                             <h4>Punti Salienti del piano</h4>
                             <ul>
-                                <li><i class="fa-solid fa-check"></i></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-check"></i></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp5 TB di sapzio di archiviazione</li>
                             </ul>
                         </div>
                     </div>
                     <div class="section-column w-30 border">
                         <div class="icon">
-                            <i class="fa-solid fa-building"></i>&nbsp Azienda
+                            <i class="fa-solid fa-building"></i>&nbspAzienda
                         </div>
                         <div class="text">
                             <h3>Professional</h3>
@@ -127,39 +155,39 @@
                         </div>
                         <div class="top-list">
                             <ul>
-                                <li><i class="fa-solid fa-user"></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-folder"></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
-                                <li><i class="fa-solid fa-share-nodes"></i></i>&nbsp Funzioni di produttività</li>
+                                <li><i class="fa-solid fa-user"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-folder"></i>&nbsp5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-share-nodes"></i>&nbspFunzioni di produttività</li>
                             </ul>
                             <div class="d-flex center">
                                 <button>Prova Gratis per trena giorni</button><br>
                             </div>
-                            <span>Oppure<a href="#">&nbsp Aquista ora</a></span><br>
+                            <span>Oppure<a href="#">&nbspAquista ora</a></span><br>
                         </div>
-                        <span id=line style="color: gray;">&nbsp _______</span>
+                        <span class=line style="color: gray;">&nbsp_______</span>
                         <div class="bottom-list">
                             <h4>Punti Salienti del piano</h4>
                             <ul>
-                                <li><i class="fa-solid fa-check"></i></i>&nbsp 1 Utente</li>
-                                <li><i class="fa-solid fa-check"></i></i></i>&nbsp 5 TB di sapzio di archiviazione</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp1 Utente</li>
+                                <li><i class="fa-solid fa-check"></i>&nbsp5 TB di sapzio di archiviazione</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-                <div class="enetrprice">
+                <div class="enterprice">
                     <div class="top">
-                        <i class="fa-solid fa-building"></i>&nbsp Team
+                        <i class="fa-solid fa-building"></i>&nbspTeam
                     </div>
                     <div class="bottom">
                         <div class="d-flex space-between">
-                            <h3>Enetrprice</h3>
+                            <h3>Enterprice</h3>
                             <button>Contatta ufficio vendite</button>
                         </div>
                         <h4>Contatta ufficio vendite per i prezzi</h4>
                         <span>Soluzioni personalizzate</span>
                     </div>
                 </div>
-                <div class="content top-100">
+                <div class="content d-flex top-100">
                     <div class="column-big w-60">
                         <img src="img/partner.png" alt="partner">
                     </div>
@@ -172,108 +200,117 @@
                     </div>
                 </div>
                 <div class="business">
-                    <h2 id="sub-title-2">Esegui più operazioni con DropBox Business</h2>
+                    <h2 class="top-100">Esegui più operazioni con DropBox Business</h2>
                     <div class="columns">
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                         <div class="section-column w-30 top-40">
                             <img src="img/business-feature-switching-tools.png" alt="">
                             <div class="text">
                                 <h3>Passa di meno da uno strumento all'altro</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa! Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
-                            </p>
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus accusantium
+                                    necessitatibus enim voluptates quisquam quibusdam autem laboriosam molestias ipsa!
+                                    Nesciunt quas facilis dolorum minima vitae sapiente hic sed beatae possimus.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <h2 id="sub-title-3">Più di 500.000 team utilizzano DropBox Business</h2>
+                    <h2 class="top-100 bottom-30">Più di 500.000 team utilizzano DropBox Business</h2>
                     <a href="#">Scopri di più sui nostri clienti</a>
                 </div>
+            </section>
+        </div>
 
-
-
-
-
-
-
-
-                <section class="customer d-flex">
-                    <div class="square d-flex wrap">
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
+        <section id="customer">
+            <div class="square-section d-flex wrap">
+                <div class="square d-flex wrap">
+                    <div class="small">
                     </div>
-                    <div class="square center"></div>
-                    <div class="square d-flex wrap">
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
-                        <div class="small">
-                        </div>
+                    <div class="small">
                     </div>
-                </section>
-
-
-
-
-
-                <div class="free-trial">
-                    <div class="container">
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit optio, hic nam omnis pariatur commodi vel exercitationem veniam velit possimus laborum doloribus debitis temporibus incidunt iste officiis sed aspernatur beatae!</p> -->
+                    <div class="small">
                     </div>
-
+                    <div class="small">
+                    </div>
                 </div>
-                <div class="faq">
-                    <div class="container">
-                        <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit optio, hic nam omnis pariatur commodi vel exercitationem veniam velit possimus laborum doloribus debitis temporibus incidunt iste officiis sed aspernatur beatae!</p> -->
-                    </div>
-
+                <div class="square d-flex wrap">
                 </div>
+                <div class="square d-flex wrap">
+                    <div class="small">
+                    </div>
+                    <div class="small">
+                    </div>
+                    <div class="small">
+                    </div>
+                    <div class="small">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <div class="free-trial">
+            <div class="container">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit optio, hic nam omnis pariatur commodi vel exercitationem veniam velit possimus laborum doloribus debitis temporibus incidunt iste officiis sed aspernatur beatae!</p> -->
+            </div>
+
+        </div>
+        <div class="faq">
+            <div class="container">
+                <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit optio, hic nam omnis pariatur commodi vel exercitationem veniam velit possimus laborum doloribus debitis temporibus incidunt iste officiis sed aspernatur beatae!</p> -->
+            </div>
+        </div>
 
 
 
