@@ -181,6 +181,11 @@ button {
     color: white;
     border: none;
     padding: 10px;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: .5;
 }
 
 .check span {
