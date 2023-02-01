@@ -5,8 +5,8 @@
 }
 
 html {
-    font-family: sans-serif;
-
+    font-family: 'Open Sans', sans-serif;
+    
     /* OPENSANS */
 }
 
@@ -33,7 +33,6 @@ html {
 }
 
 .column-big {
-    /* height: 400px; */
     /* background-color: green; */
 }
 
@@ -41,9 +40,9 @@ html {
     /* background-color: brown; */
 }
 
-.border {
+/* .border {
     border: 1px solid red;
-}
+} */
 
 
 /* REGOLE CSS */
@@ -93,9 +92,9 @@ nav {
     line-height: 70px;
 }
 
-.border-hover {
-    /* border-bottom: red solid 1px; */
-}
+/* .border-hover {
+    border-bottom: red solid 1px;
+} */
 
 .menu-column li a {
     text-decoration: none;
@@ -119,7 +118,6 @@ main {
 .container-small {
     max-width: 1000px;
     margin: auto;
-    /* padding-bottom: 100px; */
 }
 
 #jumbo {
@@ -152,6 +150,9 @@ main {
 
 .bottom-50 {
     padding-bottom: 50px;
+}
+.bottom-100 {
+    padding-bottom: 100px;
 }
 
 .top-30 {
@@ -266,9 +267,7 @@ button {
 
 .enterprice {
     border: solid 1px gray;
-    /* height: 200px;
-    background-color: yellow; */
-    /* margin-bottom: 20px; */
+    /*background-color: yellow; */
 }
 
 .enterprice .top {
@@ -312,11 +311,6 @@ button {
     width: 100%;
 }
 
-
-/* #customer {
-    padding-top: 30px;
-} */
-
 .square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
@@ -326,8 +320,6 @@ button {
 .square .small {
     height: 50%;
     width: 50%;
-    /* background-color: #57BCB7; */
-    /* border: 1px solid; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -383,20 +375,12 @@ button {
 
 
 .free-trial {
-    /* height: 250px;
-    padding: 20px; */
     background-color: #B4D0E7;
 }
+
 .free-trial h2 {
     color: #61082B;
     padding: 100px 0;
-}
-
-
-.faq {
-    height: 500px;
-    padding: 20px;
-    background-color: #c2f3c0;
 }
 
 
