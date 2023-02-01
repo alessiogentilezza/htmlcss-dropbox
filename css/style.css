@@ -246,8 +246,13 @@ button {
 }
 
 .line {
-    display: inline-block;
-    padding: 10px 0;
+    padding: 10px;
+    color: gray;
+}
+#line2 {
+    color: gray;
+    padding: 30px 0;
+    line-height: 0;
 }
 
 .bottom-list i {
@@ -315,7 +320,7 @@ button {
 .square {
     width: calc(100% / 3);
     height: calc(100vw / 3);
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .square .small {
@@ -371,7 +376,9 @@ button {
 }
 
 .square.central {
-    padding: 100px;
+    padding: 30px;
+    background-color: #F5F5F5;
+    overflow-y: auto;
 }
 
 
