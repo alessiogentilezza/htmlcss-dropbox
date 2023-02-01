@@ -57,6 +57,7 @@ header {
     top: 0;
     left: 0;
     z-index: 100;
+    box-shadow: 0 1px rgba(128, 128, 128, .3);
 }
 
 .d-flex {
@@ -95,13 +96,14 @@ nav {
 .border-hover {
     /* border-bottom: red solid 1px; */
 }
+
 .menu-column li a {
     text-decoration: none;
     color: black;
 }
 
 .menu-column ul img {
-    height: 30px;    
+    height: 30px;
     vertical-align: middle;
 }
 
@@ -120,21 +122,22 @@ main {
     padding-bottom: 100px;
 }
 
-.jumbo {
+#jumbo {
     background-color: #B4D0E7;
 }
 
-.jumbo h1 {
-    text-align: left;
+#jumbo h1 {
+    /* text-align: left; */
     font-size: 60px;
 }
 
-.jumbo button {
+#jumbo button {
     margin: 30px 0;
 }
 
-.jumbo i {
-    font-size: 30px;
+#jumbo i {
+    font-size: 40px;
+    color: black;
     padding: 10px 0;
 }
 
@@ -145,6 +148,10 @@ main {
 
 .bottom-30 {
     padding-bottom: 30px;
+}
+
+.bottom-50 {
+    padding-bottom: 50px;
 }
 
 .top-30 {
@@ -314,9 +321,32 @@ button {
 .square .small {
     height: 50%;
     width: 50%;
-    background-color: #57BCB7;
-    border: 1px solid red;
+    /* background-color: #57BCB7; */
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
 }
+
+
+#customer img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+.square1-color {
+    background-color: #A2D39B;
+    border: solid 10px #D1E9CD;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
