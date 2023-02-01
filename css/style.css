@@ -6,11 +6,15 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    
+
     /* OPENSANS */
 }
 
 /* REGOLE DI DEBUG */
+
+.w-20 {
+    width: 20%;
+}
 
 .w-30 {
     width: 30%;
@@ -151,6 +155,7 @@ main {
 .bottom-50 {
     padding-bottom: 50px;
 }
+
 .bottom-100 {
     padding-bottom: 100px;
 }
@@ -250,7 +255,14 @@ button {
     padding: 10px;
     color: gray;
 }
+
 #line2 {
+    color: white;
+    padding: 50px 0;
+    line-height: 0;
+}
+
+#line3 {
     color: gray;
     padding: 30px 0;
     line-height: 0;
@@ -386,29 +398,44 @@ button {
 
 footer {
     background-color: black;
-    /* height: 600px; */
+    height: 600px;
 }
 
-.footer-container {
+/* .footer-container {
     height: 500px;
     width: 1170px;
     margin: 0 auto;
     display: flex;
     align-items: flex-start;
-    /* margin: auto; */
-}
+    margin: auto;
+} */
 
 
 .column {
-    width: calc(100% / 5);
+    /* width: calc(100% / 5); */
     color: white;
-    background-color: #57BCB7;
-    margin: 10px;
+    /* background-color: #57BCB7; */
+    /* margin: 10px; */
 }
 
 .column ul {
     list-style-type: none;
 }
+
+.columns h3 {
+    padding: 20px 0;
+}
+
+.columns li {
+    padding-bottom: 20px;
+}
+
+/* footer hr {
+    width: 100px;
+    color: white;
+    margin-top: 50px;
+} */
+
 
 .language {
     height: 30px;
