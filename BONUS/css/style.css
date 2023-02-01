@@ -96,9 +96,9 @@ nav {
     line-height: 70px;
 }
 
-/* .border-hover {
-    border-bottom: red solid 1px;
-} */
+.border-hover:hover {
+    border-bottom: gray solid 3px;
+}
 
 .menu-column li a {
     text-decoration: none;
