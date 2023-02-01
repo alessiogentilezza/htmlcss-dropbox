@@ -422,13 +422,31 @@ footer h3 {
     padding-bottom: 20px;
 }
 
-/* footer hr {
-    width: 100px;
-    color: white;
-    margin-top: 50px;
-} */
-
-
 .language {
     color: #999999;
+}
+
+.faq hr {
+    margin: 30px 0;
+}
+.testo-nascosto {
+    display: none;
+    padding-top: 20px;
+}
+
+
+.text-in:hover .testo-nascosto {
+    display: block;
+}
+
+.text-in:hover .testo-nascosto {
+    display: block;
+}
+
+.rotate-180 {
+    transition: transform 0.1ms;
+}
+
+.text-in:hover .rotate-180  {
+    transform: rotate(180deg);
 }
